@@ -1,0 +1,22 @@
+PODS:
+  - audio_worklet (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - audio_worklet (from `.symlinks/plugins/audio_worklet/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  audio_worklet:
+    :path: ".symlinks/plugins/audio_worklet/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  audio_worklet: b16f00b0e6fa26c35fa87ef9d00c32cd4991a047
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 083258d7f5e80b42ea9bfee905fe93049bc04c64
+
+COCOAPODS: 1.8.4

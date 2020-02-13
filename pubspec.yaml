@@ -1,0 +1,32 @@
+name: audio_worklet
+description: A Web AUdio API like audio worklet plugin
+version: 0.0.1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+  flutter: ">=1.12.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.swhh.audio_worklet
+        pluginClass: AudioWorkletPlugin
+      ios:
+        pluginClass: AudioWorkletPlugin
+#     macos:
+#       pluginClass: AudioWorkletPlugin
+#      web:
+#        pluginClass: AudioWorkletPlugin
+#        fileName: audio_worklet_web.dart
+
